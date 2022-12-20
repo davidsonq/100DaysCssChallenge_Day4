@@ -23,8 +23,6 @@
 }
 .main__circule--2 {
   position: absolute;
-  top: 276px;
-  left: 199px;
 
   display: flex;
   justify-content: center;
@@ -40,8 +38,6 @@
 }
 .main__circule--3 {
   position: absolute;
-  top: 290px;
-  left: 213px;
 
   width: 30px;
   height: 30px;
