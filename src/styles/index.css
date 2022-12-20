@@ -1,0 +1,86 @@
+.cointainer__main {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-bg);
+}
+.main__circule--1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: var(--color-circule);
+  box-shadow: 6px 8px 15px #00000060;
+
+  animation: animationCircule1 3s infinite alternate;
+}
+.main__circule--2 {
+  position: absolute;
+  top: 276px;
+  left: 199px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-circule);
+  box-shadow: 6px 8px 15px #00000060;
+
+  animation: animationCircule2 3s infinite alternate;
+}
+.main__circule--3 {
+  position: absolute;
+  top: 290px;
+  left: 213px;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--color-circule);
+  box-shadow: 6px 8px 15px #00000060;
+
+  animation: animationCircule3 3s infinite alternate;
+}
+
+@keyframes animationCircule1 {
+  0%,
+  10% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes animationCircule2 {
+  0%,
+  40% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes animationCircule3 {
+  0%,
+  70% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
